@@ -4,7 +4,7 @@ def is_even(number):
   if (number % 2 == 0):
     return (True)
   else :
-    return(False)
+    return (False)
 
 assert is_even(2) == True, "Ensure that the function is defined, named properly, and returns the correct value"
 assert is_even(1) == False, "Ensure that the function is defined, named properly, and returns the correct value"
