@@ -1,7 +1,7 @@
 import math
 # Exercise 42
 # Write a function definition named circumference that takes in a number representing a circle's radius and returns the circumference.
-def area_of_circle(radius):
+def circumference(radius):
   pi = math.pi
   return 2*pi*radius
 
