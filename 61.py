@@ -3,7 +3,8 @@
 def mean(sequence):
   total = sum(sequence)
   count = len(sequence)
-  return total/count
+  average = total/count
+  return average
   
 
 assert mean([1, 2, 3, 4]) == 2.5
